@@ -19,7 +19,7 @@
     border-radius: 5px;
     display: flex;
     align-items: stretch;
-    height: 1.8em;
+    height: 2em;
 }
 
 .heroes button:hover {
@@ -33,17 +33,17 @@
 }
 
 .heroes button:active {
-    background-color: #525252;
+    background-color: #808080;
     color: #fafafa;
   }
   
   .heroes button.selected {
-    background-color: black;
+    background-color: #808080;
     color: white;
   }
   
   .heroes button.selected:hover {
-    background-color: #505050;
+    background-color: #808080;
     color: white;
   }
 
