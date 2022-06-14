@@ -1,0 +1,20 @@
+h1{
+    margin-bottom: 0;
+}
+
+nav a {
+    background-color:lightblue;
+    border-radius: 5px;
+    padding: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    color:rgb(115, 12, 211);
+}
+
+nav a:hover {
+    color: white;
+    background-color: #42545c;
+}
+nav a.active{
+    background-color: black;
+}

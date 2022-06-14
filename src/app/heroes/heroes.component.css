@@ -9,8 +9,10 @@
     display: flex;
 }
 
-.heroes button {
+.heroes a {
     flex: 1;
+    text-decoration: none;
+    color:rgb(37, 41, 40);
     position: relative;
     left: 0;
     background-color: rgb(215, 225, 250);
@@ -22,34 +24,19 @@
     height: 2em;
 }
 
-.heroes button:hover {
+.heroes a:hover {
     color:rgb(37, 41, 40);
     background-color: aliceblue;
     left: 1em;
 }
-.heroes button:active{
+.heroes a:active{
     background-color: aquamarine;
     color:rgb(37, 41, 40)
 }
 
-.heroes button:active {
+.heroes a:active {
     background-color: #808080;
     color: #fafafa;
-  }
-  
-  .heroes button.selected {
-    background-color: #808080;
-    color: white;
-  }
-  
-  .heroes button.selected:hover {
-    background-color: #808080;
-    color: white;
-  }
-
-  .heroes button.selected:active {
-    background-color: black;
-    color: white;
   }
   
   .heroes .badge {
